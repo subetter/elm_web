@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>设置垂直对齐方式</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            /* align-items: flex-end;*/
+            /*多行里的每一行设置对齐方式*/
+            /*下对齐*/
+            flex-wrap: wrap;
+            /*flex-start上对齐*/
+            /*center水平居中*/
+
+            align-content: center;
+            /*把多行子元素作为一个整体垂直居中*/
+        }
+
+        /*注意：如果允许换行，那么换行后，多行元素的每一行也会垂直居中*/
+
+        .son {
+            height: 100px;
+            width: 100px;
+            border: solid 2px #f90;
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="son">1</div>
+    <div class="son">2</div>
+    <div class="son">3</div>
+    <div class="son">4</div>
+    <div class="son">5</div>
+    <div class="son">6</div>
+    <div class="son">7</div>
+    <div class="son">8</div>
+
+
+</body>
+
+</html>

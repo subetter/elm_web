@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>设置水平对齐方式</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;/*居中*/
+            /*左对齐 flex-start;右对齐flex-end*/
+            /*space-between两端对齐
+                space-around每个子元素两侧的间距相等。
+                所以子元素之间的间距比子元素到边框的艰巨大一倍*/
+        }
+
+        .son {
+            height: 100px;
+            width: 100px;
+            border: solid 2px #f90;
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="son">1</div>
+    <div class="son">2</div>
+    <div class="son">3</div>
+    <div class="son">4</div>
+    <div class="son">5</div>
+    <div class="son">6</div>
+    <div class="son">7</div>
+    <div class="son">8</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>设置子元素所占空间</title>
+    <style>
+        /*1.flex样式是设置在子元素上的
+        2.如果设置了flex，那就说明要给子元素按比例分配空间
+        因此width和height就失效了
+       */
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+        }
+
+        .son {
+            height: 100px;
+            width: 100px;
+            border: solid 2px #f90;
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--分成4份，1,2占1份,3占4份，默认主轴方向-->
+    <div class="son" style="flex:1">1</div>
+    <div class="son" style="flex:1">2</div>
+    <div class="son" style="flex:2">3</div>
+
+
+
+</body>
+
+</html>
