@@ -119,9 +119,9 @@
     border-top: solid 1px #DDD;
     background-color: white;
 
-    position: fixed;
+   /* position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 0;*/
 
     display: flex;
     justify-content: space-around;
@@ -145,4 +145,10 @@
 
 .wrapper .footer li i {
     font-size: 5vw;
+}
+
+
+.wrapper .footer li a{
+    text-decoration: none;
+    color: #666;
 }

@@ -1,0 +1,185 @@
+/*总容器部分*/
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*头像用户名*/
+.my-content {
+    width: 100%;
+    height: 16vw;
+    background-color: rgb(247, 242, 242);
+    border-radius: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.my-content .touxiang {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.my-content .touxiang img {
+    height: 12vw;
+    width: 12vw;
+    border-radius: 50%;
+    margin-left: 2vw;
+}
+
+.my-content .username {
+    font-size: 4vw;
+    margin-left: 4vw;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.my-content-right {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-content-right i {
+    width: 100%;
+    font-size: 7vw;
+    color: #555;
+}
+
+.my-content-right .fa.fa-cog {
+    margin-right: 5vw;
+}
+
+.my-content-right .fa.fa-commenting-o {
+    margin-right: 3vw;
+}
+
+/*吃货卡部分*/
+.eat-card {
+    margin-top: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 151, 255, 0.8);
+    border-radius: 3vw;
+    color: white;
+}
+
+.eat-card .eat-card-left .ka {
+    font-style: italic;
+    box-sizing: border-box;
+    padding: 2vw 6vw;
+    font-size: 6.6vw;
+}
+
+.eat-card .eat-card-left .dou {
+    font-weight: 600;
+}
+
+.eat-card .eat-card-left .num {
+    font-size: 6vw;
+    font-weight: 700;
+}
+
+.eat-card .eat-card-left .info {
+    margin-top: 1vw;
+    color: #EEE;
+    box-sizing: border-box;
+    padding: 0 6vw;
+    font-size: 1vw;
+}
+
+.eat-card-right .fa.fa-angle-right {
+    margin-right: 2.5vw;
+    font-size: 6vw;
+}
+
+ul {
+    background-color: rgb(247, 242, 242);
+    margin-top: 2vw;
+    border-radius: 3vw;
+    color: #555;
+}
+
+li i {
+    box-sizing: border-box;
+    padding: 0 9vw;
+    font-size: 6vw;
+}
+
+.fa.fa-heart {
+    padding-left: 6vw;
+}
+
+.fa.fa-map-marker {
+    padding-left: 7vw;
+}
+
+.content span {
+    margin-top: 2vw;
+    box-sizing: border-box;
+    padding: 0 4vw;
+    font-size: 4vw;
+}
+
+.second {
+    margin-top: 6vw;
+}
+
+.second-span span {
+    margin-top: 2vw;
+    margin-left: 0;
+}
+
+.fa.fa-ticket {
+    box-sizing: border-box;
+    padding-left: 3vw;
+}
+
+
+
+/*底部菜单*/
+.wrapper .footer {
+    width: 100%;
+    height: 14vw;
+    border-top: solid 1px #DDD;
+    background-color: white;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper .footer li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
+
+.wrapper .footer li p {
+    font-size: 2.8vw;
+}
+
+.wrapper .footer li i {
+    font-size: 5vw;
+}
+
+.wrapper .footer li a{
+    text-decoration: none;
+    color: #666;
+}
